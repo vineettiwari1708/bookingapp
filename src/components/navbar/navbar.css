@@ -1,0 +1,41 @@
+.navbar {
+  height: 60px;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+}
+.logo {
+  font-size: xx-large;
+  font-weight: 700;
+}
+
+.navContainer {
+  display: flex;
+  color: white;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  gap: 10px;
+}
+.navItem {
+  display: flex;
+  gap: 20px;
+}
+.headerTitle {
+  margin: 20px 0;
+}
+.headerDesc {
+  margin: 20px 0;
+  max-width: 50%;
+  text-justify: auto;
+}
+
+.navButton {
+  padding: 10px 20px;
+  font-size: larger;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}

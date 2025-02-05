@@ -27,12 +27,15 @@
   padding: 10px;
   border: 1px solid blue;
   align-items: center;
+  
 }
 
-.headerListItem.active:has(:hover) {
+.headerListItem.active:hover {
   border: 1px solid white;
   padding: 10px;
   border-radius: 10px;
+  cursor: pointer;
+  
 }
 .headerBtn {
   padding: 10px 20px;

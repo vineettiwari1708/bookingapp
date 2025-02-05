@@ -1,4 +1,4 @@
-import React, { useState, date } from "react";
+import React, { useState } from "react";
 import "../header/header.css";
 import {
   faBed,
@@ -44,7 +44,7 @@ export const Header = ({ type }) => {
     });
   };
   const handleSearch = () => {
-    navigate("/hotels", { state: { destination, date, option,checkindate,checkoutdate } });
+    navigate("/hotels", { state: { destination, option,checkindate,checkoutdate } });
   
   };
 
